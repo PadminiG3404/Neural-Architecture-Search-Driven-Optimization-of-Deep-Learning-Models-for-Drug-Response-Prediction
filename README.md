@@ -1,11 +1,11 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
-[![Research Paper](https://img.shields.io/badge/Publication-Research_Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) &nbsp [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
+[![Research Paper](https://img.shields.io/badge/Publication-Research_Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
 
 ## 📖 Overview
 
 <p align="center">
-    <img width="300" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22">
+    <img width="300" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22">&nbsp&nbsp&nbsp&nbsp&nbsp
     <img width="300" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d">
 </p>
 
@@ -15,7 +15,7 @@ To address this challenge, the project explores **three NAS approaches—Random 
 
 
 ## 📄 Published Work
-This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
+This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.<br>
 [📑 Read our Research Paper](https://www.sciencedirect.com/science/article/pii/S1877050924034513))<br>
 **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
 **Conference:** ICECMSN 2024  
@@ -57,7 +57,7 @@ The workflow involves several key steps:
    - Correlation analysis and feature selection
    - Dataset splitting for training, validation, and testing
 
-**Missing Values Heatmap:** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp**Correlation Matrix Analysis:**
+**Missing Values Heatmap and Correlation Matrix:**
 <p align="center">
     <img width="300" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">&nbsp&nbsp&nbsp&nbsp&nbsp
     <img width="300" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32">
@@ -92,7 +92,7 @@ The workflow involves several key steps:
 **Comparison of Performance Metrics Across Methods**
 
 <p align="center">
-    <img width="400" src="https://github.com/user-attachments/assets/4ab48cdd-f827-4ed4-9031-93037d850136" alt="Sample Data">
+    <img width="400" src="https://github.com/user-attachments/assets/4ab48cdd-f827-4ed4-9031-93037d850136">
 </p>
 
 **Key Insights:**
@@ -114,7 +114,7 @@ This research confirms that **Q-Learning-based NAS provides the most effective n
 - Scikit-learn
 
 ### Setup
-- Open Google Colab and load the notebook: [![Open in Colab](Link)
+- Open Google Colab and load the notebook:  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
 - Follow the instructions in the notebook to train and evaluate the models.
 - Execute each section of the notebook to preprocess data, perform NAS optimization, and evaluate model performance.
 
