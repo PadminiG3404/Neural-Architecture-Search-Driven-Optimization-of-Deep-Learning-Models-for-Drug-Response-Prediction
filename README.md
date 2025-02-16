@@ -1,13 +1,13 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
-[![Open in Colab(https://colab.research.google.com/assets/colab-badge.svg)](Link) 
-[![Publication]](https://www.sciencedirect.com/science/article/pii/S1877050924034513) 
+![[Static Badge](https://img.shields.io/badge/Research%20Publication)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
 
 ## 📖 Overview
 
 <p align="center">
-    <img width="400" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22">
-    <img width="400" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d">
+    <img width="300" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22">
+    <img width="300" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d">
 </p>
 
 This repository presents the implementation of **Neural Architecture Search (NAS)** techniques to optimize deep learning models for **drug response prediction**. Accurate prediction of drug responses is critical for **personalized medicine**, minimizing adverse effects, and enhancing therapeutic outcomes. Traditional deep learning models rely on manually designed architectures, which often struggle to capture the intricate relationships between genomic features and drug interactions.
@@ -17,7 +17,7 @@ To address this challenge, the project explores **three NAS approaches—Random 
 
 ## 📄 Published Work
 This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
-[📑 Read our Research Paper]([https://fake-url.com/your-research-paper-link](https://www.sciencedirect.com/science/article/pii/S1877050924034513))
+[📑 Read our Research Paper](https://www.sciencedirect.com/science/article/pii/S1877050924034513))
 **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
 **Conference:** ICECMSN 2024  
 **Publisher:** Science Direct 
@@ -42,7 +42,7 @@ The dataset used in this study is the **PANCANCER_ANOVA** dataset, containing  *
 **Sample Data:**
 
 <p align="center">
-    <img width="800" src="https://github.com/user-attachments/assets/c9a51ad7-411a-438c-9606-0b3d893c0676" alt="Sample Data">
+    <img width="700" src="https://github.com/user-attachments/assets/c9a51ad7-411a-438c-9606-0b3d893c0676" alt="Sample Data">
 </p>
 
 ## 🔬 Methodology
@@ -60,8 +60,8 @@ The workflow involves several key steps:
 
 **Missing Values Heatmap:**            |            **Correlation Matrix Analysis:**
 <p align="center">
-    <img width="400" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">
-    <img width="400" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32">
+    <img width="300" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">
+    <img width="300" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32">
 </p>
 
 2. **Neural Network Architecture Design**
