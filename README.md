@@ -3,16 +3,14 @@
 ## 📖 Overview
 
 <p align="center">
-    <img width="600" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22" alt="Sample Data">
+    <img width="500" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22">
+    <img width="600" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d">
 </p>
 
 This repository presents the implementation of **Neural Architecture Search (NAS)** techniques to optimize deep learning models for **drug response prediction**. Accurate prediction of drug responses is critical for **personalized medicine**, minimizing adverse effects, and enhancing therapeutic outcomes. Traditional deep learning models rely on manually designed architectures, which often struggle to capture the intricate relationships between genomic features and drug interactions.
 
 To address this challenge, the project explores **three NAS approaches—Random Search, Q-Learning, and Bayesian Optimization**—to automatically identify optimal model architectures. Experimental results demonstrate that NAS-optimized models significantly outperform conventional deep learning methods, showcasing the potential of NAS in improving predictive accuracy. These findings highlight the role of **automated architecture optimization** in advancing personalized medicine and accelerating drug development.
 
-<p align="center">
-    <img width="600" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d" alt="Sample Data">
-</p>
 
 ## 📄 Published Work
 This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
