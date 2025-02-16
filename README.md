@@ -3,7 +3,7 @@
 ## 📖 Overview
 
 <p align="center">
-    <img width="200" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22" alt="Sample Data">
+    <img width="800" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22" alt="Sample Data">
 </p>
 
 This repository presents the implementation of **Neural Architecture Search (NAS)** techniques to optimize deep learning models for **drug response prediction**. Accurate prediction of drug responses is critical for **personalized medicine**, minimizing adverse effects, and enhancing therapeutic outcomes. Traditional deep learning models rely on manually designed architectures, which often struggle to capture the intricate relationships between genomic features and drug interactions.
@@ -11,7 +11,7 @@ This repository presents the implementation of **Neural Architecture Search (NAS
 To address this challenge, the project explores **three NAS approaches—Random Search, Q-Learning, and Bayesian Optimization**—to automatically identify optimal model architectures. Experimental results demonstrate that NAS-optimized models significantly outperform conventional deep learning methods, showcasing the potential of NAS in improving predictive accuracy. These findings highlight the role of **automated architecture optimization** in advancing personalized medicine and accelerating drug development.
 
 <p align="center">
-    <img width="200" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d" alt="Sample Data">
+    <img width="800" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d" alt="Sample Data">
 </p>
 
 ## 📄 Published Work
@@ -41,7 +41,7 @@ The dataset used in this study is the **PANCANCER_ANOVA** dataset, containing  *
 **Sample Data:**
 
 <p align="center">
-    <img width="200" src="https://github.com/user-attachments/assets/c9a51ad7-411a-438c-9606-0b3d893c0676" alt="Sample Data">
+    <img width="1000" src="https://github.com/user-attachments/assets/c9a51ad7-411a-438c-9606-0b3d893c0676" alt="Sample Data">
 </p>
 
 ## 🔬 Methodology
@@ -89,20 +89,16 @@ The workflow involves several key steps:
 
 ## 📊 Results
 
-<p align="center">
-
 | Method                 | MSE     | R²       | MAE     | RMSE    |
 |------------------------|---------|---------|---------|---------|
 | Random Search         | 0.096292 | -0.003099 | 0.27427 | 0.310309 |
 | Q-Learning           | **0.065483** | **0.116831** | **0.20684** | **0.255897** |
 | Bayesian Optimization | 0.092374 | -0.069800 | 0.25340 | 0.303931 |
 
-</p>
-
 **Comparison of Performance Metrics Across Methods**
 
 <p align="center">
-    <img width="200" src="https://github.com/user-attachments/assets/4ab48cdd-f827-4ed4-9031-93037d850136" alt="Sample Data">
+    <img width="800" src="https://github.com/user-attachments/assets/4ab48cdd-f827-4ed4-9031-93037d850136" alt="Sample Data">
 </p>
 
 **Key Insights:**
