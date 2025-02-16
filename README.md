@@ -1,5 +1,8 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
+[![Open in Colab(https://colab.research.google.com/assets/colab-badge.svg)](Link) 
+[![Publication]](https://www.sciencedirect.com/science/article/pii/S1877050924034513) 
+
 ## 📖 Overview
 
 <p align="center">
@@ -14,7 +17,7 @@ To address this challenge, the project explores **three NAS approaches—Random 
 
 ## 📄 Published Work
 This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
-
+[📑 Read our Research Paper]([https://fake-url.com/your-research-paper-link](https://www.sciencedirect.com/science/article/pii/S1877050924034513))
 **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
 **Conference:** ICECMSN 2024  
 **Publisher:** Science Direct 
@@ -55,12 +58,11 @@ The workflow involves several key steps:
    - Correlation analysis and feature selection
    - Dataset splitting for training, validation, and testing
 
-**Missing Values Heatmap:**            **Correlation Matrix Analysis:**
+**Missing Values Heatmap:**            |            **Correlation Matrix Analysis:**
 <p align="center">
     <img width="400" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">
     <img width="400" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32">
 </p>
-
 
 2. **Neural Network Architecture Design**
    - Defining the search space (layers, activations, dropout rates)
@@ -113,7 +115,7 @@ This research confirms that **Q-Learning-based NAS provides the most effective n
 - Scikit-learn
 
 ### Setup
-- Open Google Colab and load the notebook: 
+- Open Google Colab and load the notebook: [![Open in Colab](Link)
 - Follow the instructions in the notebook to train and evaluate the models.
 - Execute each section of the notebook to preprocess data, perform NAS optimization, and evaluate model performance.
 
@@ -124,21 +126,18 @@ This research confirms that **Q-Learning-based NAS provides the most effective n
 
 ## 📜 Citation
 If you use this work, please cite:
-
-@article{Uday2025NAS,
-  author    = {Uday Kiran G, Srilakshmi V, Padmini G, Sreenidhi G, Venkata Ramana B, Preetham Reddy G J},
-  title     = {Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction},
-  journal   = {Procedia Computer Science},
-  volume    = {252},
-  pages     = {172-181},
-  year      = {2025},
-  issn      = {1877-0509},
-  doi       = {10.1016/j.procs.2024.12.019},
-  url       = {https://www.sciencedirect.com/science/article/pii/S1877050924034513}
-  }
+**Authors:** Uday Kiran G, Srilakshmi V, Padmini G, Sreenidhi G, Venkata Ramana B, Preetham Reddy G J  
+**Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
+**Journal:** Procedia Computer Science  
+**Volume:** 252  
+**Pages:** 172-181  
+**Year:** 2025  
+**ISSN:** 1877-0509  
+**DOI:** [10.1016/j.procs.2024.12.019](https://doi.org/10.1016/j.procs.2024.12.019)  
+**URL:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1877050924034513)  
 
 ## ✉️ Contact
 For questions or collaborations, feel free to reach out:
 - Name: Padmini Gudavalli
-- Email: [pgudavalli2004@gmail.com]
-- LinkedIn: [https://www.linkedin.com/in/padmini-gudavalli-226245259]
+- [Gmail](pgudavalli2004@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/padmini-gudavalli-226245259)
