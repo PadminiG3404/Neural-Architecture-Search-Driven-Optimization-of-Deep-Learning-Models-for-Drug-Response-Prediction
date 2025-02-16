@@ -3,7 +3,7 @@
 ## 📖 Overview
 
 <p align="center">
-    <img width="800" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22" alt="Sample Data">
+    <img width="600" src="https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22" alt="Sample Data">
 </p>
 
 This repository presents the implementation of **Neural Architecture Search (NAS)** techniques to optimize deep learning models for **drug response prediction**. Accurate prediction of drug responses is critical for **personalized medicine**, minimizing adverse effects, and enhancing therapeutic outcomes. Traditional deep learning models rely on manually designed architectures, which often struggle to capture the intricate relationships between genomic features and drug interactions.
@@ -11,7 +11,7 @@ This repository presents the implementation of **Neural Architecture Search (NAS
 To address this challenge, the project explores **three NAS approaches—Random Search, Q-Learning, and Bayesian Optimization**—to automatically identify optimal model architectures. Experimental results demonstrate that NAS-optimized models significantly outperform conventional deep learning methods, showcasing the potential of NAS in improving predictive accuracy. These findings highlight the role of **automated architecture optimization** in advancing personalized medicine and accelerating drug development.
 
 <p align="center">
-    <img width="800" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d" alt="Sample Data">
+    <img width="600" src="https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d" alt="Sample Data">
 </p>
 
 ## 📄 Published Work
@@ -47,7 +47,7 @@ The dataset used in this study is the **PANCANCER_ANOVA** dataset, containing  *
 ## 🔬 Methodology
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/e7b81d2f-70b6-4d65-9eb1-39585928fbc1)
+<img width="400" src="https://github.com/user-attachments/assets/38327c3d-f957-4f47-8fca-1499f1b02893"
 </p>
 
 The workflow involves several key steps:
@@ -57,16 +57,14 @@ The workflow involves several key steps:
    - Correlation analysis and feature selection
    - Dataset splitting for training, validation, and testing
 
-<p align="center">
-
 **Missing Values Heatmap:**
-![Missing Values Heatmap](![image](https://github.com/user-attachments/assets/4338fbe1-1a5a-408a-8ffa-ed98fff42651)
-)
+<p align="center">
+<img width="400" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">
+</p>
 
 **Correlation Matrix Analysis:**
-![Correlation Matrix](![image](https://github.com/user-attachments/assets/f6464ccb-02fd-4137-bedb-6803170b4197)
-)
-
+<p align="center">
+<img width="400" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32"
 </p>
 
 2. **Neural Network Architecture Design**
