@@ -125,15 +125,22 @@ This research confirms that **Q-Learning-based NAS provides the most effective n
 
 ## 📜 Citation
 If you use this work, please cite:
-**Authors:** Uday Kiran G, Srilakshmi V, Padmini G, Sreenidhi G, Venkata Ramana B, Preetham Reddy G J  
-**Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
-**Journal:** Procedia Computer Science  
-**Volume:** 252  
-**Pages:** 172-181  
-**Year:** 2025  
-**ISSN:** 1877-0509  
-**DOI:** [10.1016/j.procs.2024.12.019](https://doi.org/10.1016/j.procs.2024.12.019)  
-**URL:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1877050924034513)  
+
+```
+@article{G2025172,
+  author={Uday Kiran G and Srilakshmi V and Padmini G and Sreenidhi G and Venkata Ramana B and Preetham Reddy G J},
+  title={Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction},
+  journal = {Procedia Computer Science},
+  volume = {252},
+  pages = {172-181},
+  year = {2025},
+  note = {4th International Conference on Evolutionary Computing and Mobile Sustainable Networks},
+  issn = {1877-0509},
+  doi = {https://doi.org/10.1016/j.procs.2024.12.019},
+  url = {https://www.sciencedirect.com/science/article/pii/S1877050924034513},
+  keywords = {Neural Architecture Search, Random Search, Q-Learning, Bayesian Optimization, Drug Response Prediction}
+}
+```
 
 ## ✉️ Contact
 For questions or collaborations, feel free to reach out:
