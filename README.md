@@ -1,7 +1,6 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
-![[Static Badge](https://img.shields.io/badge/Research%20Publication)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
+[![Research Paper](https://img.shields.io/badge/Publication-Research_Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) &nbsp [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
 
 ## 📖 Overview
 
@@ -17,7 +16,7 @@ To address this challenge, the project explores **three NAS approaches—Random 
 
 ## 📄 Published Work
 This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
-[📑 Read our Research Paper](https://www.sciencedirect.com/science/article/pii/S1877050924034513))
+[📑 Read our Research Paper](https://www.sciencedirect.com/science/article/pii/S1877050924034513))<br>
 **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
 **Conference:** ICECMSN 2024  
 **Publisher:** Science Direct 
@@ -58,9 +57,9 @@ The workflow involves several key steps:
    - Correlation analysis and feature selection
    - Dataset splitting for training, validation, and testing
 
-**Missing Values Heatmap:**            |            **Correlation Matrix Analysis:**
+**Missing Values Heatmap:** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp**Correlation Matrix Analysis:**
 <p align="center">
-    <img width="300" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">
+    <img width="300" src="https://github.com/user-attachments/assets/9e9ff24c-61b0-4843-81ff-78f227e3b0a0">&nbsp&nbsp&nbsp&nbsp&nbsp
     <img width="300" src="https://github.com/user-attachments/assets/c47697be-8b82-4ee1-a317-96eafec26e32">
 </p>
 
