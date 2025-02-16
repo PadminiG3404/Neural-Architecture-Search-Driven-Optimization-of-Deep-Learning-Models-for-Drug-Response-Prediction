@@ -1,9 +1,16 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
-## Overview 📖
-This repository contains the implementation of Neural Architecture Search (NAS) techniques for optimizing deep learning models in drug response prediction. Accurate drug response prediction is crucial for personalized medicine, reducing adverse effects, and enhancing therapeutic efficacy. Traditional deep learning models rely on manually designed architectures, which may fail to capture the complexity of drug interactions. The project evaluates different NAS approaches, including Random Search, Q-Learning, and Bayesian Optimization, to improve the predictive accuracy of drug response models,  supporting advancements in personalized medicine and drug development. The findings demonstrate that NAS-optimized models outperform conventional deep learning approaches. The results indicate the potential of NAS in predictive modeling for drug response and its implications in personalized medicine and drug development.
+## 📖 Overview
 
-## Published Work
+![Image 2](https://github.com/user-attachments/assets/67360516-7b6a-443d-890a-01075ded9a22)
+
+This repository presents the implementation of **Neural Architecture Search (NAS)** techniques to optimize deep learning models for **drug response prediction**. Accurate prediction of drug responses is critical for **personalized medicine**, minimizing adverse effects, and enhancing therapeutic outcomes. Traditional deep learning models rely on manually designed architectures, which often struggle to capture the intricate relationships between genomic features and drug interactions.
+
+To address this challenge, the project explores **three NAS approaches—Random Search, Q-Learning, and Bayesian Optimization**—to automatically identify optimal model architectures. Experimental results demonstrate that NAS-optimized models significantly outperform conventional deep learning methods, showcasing the potential of NAS in improving predictive accuracy. These findings highlight the role of **automated architecture optimization** in advancing personalized medicine and accelerating drug development.
+
+![Image1](https://github.com/user-attachments/assets/64577fbf-cc25-4b08-939d-2d3fc007d71d)
+
+## 📄 Published Work
 This research has been accepted at the **4th International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2024)** and published in **Science Direct**.
 
 **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
@@ -21,19 +28,33 @@ This research has been accepted at the **4th International Conference on Evoluti
 ## 📂 Dataset
 The dataset used in this study is the **PANCANCER_ANOVA** dataset, containing  **200,920 entries across 22 columns** with drug sensitivity data, genomic variations, and tissue types.
 
-Key features include:
+### Key features include:
 - **Drug Name, Drug ID, and Target Pathway**
 - **Gene Expression and Mutation Data**
 - **IC50 Values and Effect Sizes**
 - **False Discovery Rate (FDR) and P-values**
 
+**Sample Data:**
+![image](https://github.com/user-attachments/assets/4af413a6-15f3-475a-9478-d35e81fb3de6)
+
 ## 🔬 Methodology
+
+![image](https://github.com/user-attachments/assets/e7b81d2f-70b6-4d65-9eb1-39585928fbc1)
+
 The workflow involves several key steps:
 1. **Data Preprocessing**
    - Handling missing values
    - Feature scaling and normalization
    - Correlation analysis and feature selection
    - Dataset splitting for training, validation, and testing
+
+**Missing Values Heatmap:**
+![Missing Values Heatmap](![image](https://github.com/user-attachments/assets/4338fbe1-1a5a-408a-8ffa-ed98fff42651)
+)
+
+**Correlation Matrix Analysis:**
+![Correlation Matrix](![image](https://github.com/user-attachments/assets/f6464ccb-02fd-4137-bedb-6803170b4197)
+)
 
 2. **Neural Network Architecture Design**
    - Defining the search space (layers, activations, dropout rates)
@@ -53,7 +74,7 @@ The workflow involves several key steps:
    - Flask API for drug response prediction
    - Scalability and integration into biomedical applications
 
-## Results
+## 📊 Results
 
 | Method                 | MSE     | R²       | MAE     | RMSE    |
 |------------------------|---------|---------|---------|---------|
@@ -61,44 +82,54 @@ The workflow involves several key steps:
 | Q-Learning           | **0.065483** | **0.116831** | **0.20684** | **0.255897** |
 | Bayesian Optimization | 0.092374 | -0.069800 | 0.25340 | 0.303931 |
 
-**Key Findings:**
+**Comparison of Performance Metrics Across Methods**
+![image](https://github.com/user-attachments/assets/4ab48cdd-f827-4ed4-9031-93037d850136)
+
+**Key Insights:**
 - **Q-Learning performed best**, achieving the lowest error rates and highest R² score.
 - **Bayesian Optimization showed moderate performance**, improving over Random Search but underperforming compared to Q-Learning.
 - **Random Search was the least effective**, highlighting the need for guided optimization techniques.
 
-## Conclusion and Future Scope
+## 💡Conclusion and Future Scope
 This research confirms that **Q-Learning-based NAS provides the most effective neural network architectures** for drug response prediction. Future work could explore:
 - **Advanced NAS techniques** (e.g., Evolutionary Algorithms, Reinforcement Learning)
 - **Expanding datasets** with diverse drug compounds
 - **Explainability techniques** for better interpretability
 
-## Installation & Usage
+## 🚀 Installation & Usage
+
 ### Prerequisites
 - Python 3.x
 - TensorFlow / PyTorch
 - Scikit-learn
-- Flask (for deployment)
 
+### Setup
+- Open Google Colab and load the notebook: 
+- Follow the instructions in the notebook to train and evaluate the models.
+- Execute each section of the notebook to preprocess data, perform NAS optimization, and evaluate model performance.
 
+## 🛠️ Acknowledgments
+- ICECMSN 2024 Conference for accepting this research.
+- Science Direct for publication.
+- Genomics of Drug Sensitivity in Cancer (GDSC) for the dataset.
 
-
-## Citation
+## 📜 Citation
 If you use this work, please cite:
 
 @article{Uday2025NAS,
-  author    = {Uday Kiran G, Srilakshmi V, Padmini G, Sreenidhi G, Venkata Ramana B, Preetham Reddy G J},
-  title     = {Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction},
-  journal   = {Procedia Computer Science},
-  volume    = {252},
-  pages     = {172-181},
-  year      = {2025},
-  issn      = {1877-0509},
-  doi       = {10.1016/j.procs.2024.12.019},
-  url       = {https://www.sciencedirect.com/science/article/pii/S1877050924034513}
+author    = {Uday Kiran G, Srilakshmi V, Padmini G, Sreenidhi G, Venkata Ramana B, Preetham Reddy G J},
+title     = {Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction},
+journal   = {Procedia Computer Science},
+volume    = {252},
+pages     = {172-181},
+year      = {2025},
+issn      = {1877-0509},
+doi       = {10.1016/j.procs.2024.12.019},
+url       = {https://www.sciencedirect.com/science/article/pii/S1877050924034513}
 }
 
-## Contact
+## ✉️ Contact
 For questions or collaborations, feel free to reach out:
-Author: Padmini Gudavalli
+Name: Padmini Gudavalli
 Email: [pgudavalli2004@gmail.com]
 LinkedIn: [https://www.linkedin.com/in/padmini-gudavalli-226245259]
