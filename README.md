@@ -1,6 +1,6 @@
 # Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction
 
-[![Research Paper](https://img.shields.io/badge/Publication-Research_Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
+[![Research Paper](https://img.shields.io/badge/Publication-Research_Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1877050924034513) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yenc3K91ssHeY7-WN2Xyr9ntz3-RvbHg?usp=sharing)
 
 ## 📖 Overview
 
@@ -114,9 +114,10 @@ This research confirms that **Q-Learning-based NAS provides the most effective n
 - Scikit-learn
 
 ### Setup
-- Open Google Colab and load the notebook:  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](Link)
+- Open Google Colab and load the notebook:  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yenc3K91ssHeY7-WN2Xyr9ntz3-RvbHg?usp=sharing)
+- The notebook is also available in the repository files for direct access.
 - Follow the instructions in the notebook to train and evaluate the models.
-- Execute each section of the notebook to preprocess data, perform NAS optimization, and evaluate model performance.
+- Execute each section to preprocess data, perform NAS optimization, and evaluate model performance.
 
 ## 🛠️ Acknowledgments
 - ICECMSN 2024 Conference for accepting this research.
